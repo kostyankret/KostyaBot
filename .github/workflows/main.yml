@@ -24,7 +24,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        python TelegramBotDjango/djangobot/manage.py test
+        python KostBot/manage.py test
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@master
       with:
@@ -33,7 +33,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: 22
         script: |
-          cd /root/TelegramBotDjango/djangobot
+          cd /root/bot/KostBot
           source /root/venv/bin/activate
           git pull
           python manage.py migrate
