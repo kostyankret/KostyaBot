@@ -1,0 +1,14 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="honestreviews.authorization.views.profile_view" />
+          <option value="honestreviews.honestreviews.urls.profile_view" />
+          <option value="backend.core.db.postgres.core" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
