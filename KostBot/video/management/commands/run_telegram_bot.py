@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from shop.models import Video
+from video.models import Video
 import telebot
 
 bot = telebot.TeleBot("6987220975:AAHkjSUEP-AFtC8WC56-wfrSqbAN7OrOy4I")
