@@ -33,7 +33,7 @@ def url_handler(message):
     new_video = Video.objects.create(name=title, url=url)
 
 def new_video():
-    video = Video(name=name, url=url)
+    video = Video(name=title, url=url)
     video.save()
 
 @bot.message_handler(content_types=['text'])
